@@ -1,0 +1,636 @@
+Category: workclass
+
+State-gov
+Precision   0.8271604938271605
+Recall  0.7592067988668555
+fbeta   0.7917282127031019
+
+
+Self-emp-not-inc
+Precision   0.8289738430583501
+Recall  0.569060773480663
+fbeta   0.6748566748566748
+
+
+Private
+Precision   0.8281761006289308
+Recall  0.6633084827725166
+fbeta   0.7366301185947639
+
+
+Federal-gov
+Precision   0.8211382113821138
+Recall  0.816711590296496
+fbeta   0.818918918918919
+
+
+Local-gov
+Precision   0.7965217391304348
+Recall  0.7423014586709886
+fbeta   0.7684563758389261
+
+
+?
+Precision   0.8333333333333334
+Recall  0.4712041884816754
+fbeta   0.6020066889632107
+
+
+Self-emp-inc
+Precision   0.842948717948718
+Recall  0.8456591639871383
+fbeta   0.8443017656500803
+
+
+Without-pay
+Precision   1.0
+Recall  1.0
+fbeta   1.0
+
+
+Never-worked
+Precision   1.0
+Recall  1.0
+fbeta   1.0
+
+
+-------------
+Category: education
+
+Bachelors
+Precision   0.8007795582503248
+Recall  0.8325078793336335
+fbeta   0.8163355408388521
+
+
+HS-grad
+Precision   0.847001223990208
+Recall  0.41313432835820896
+fbeta   0.5553772070626003
+
+
+11th
+Precision   1.0
+Recall  0.3333333333333333
+fbeta   0.5
+
+
+Masters
+Precision   0.8398009950248756
+Recall  0.8800834202294057
+fbeta   0.8594704684317719
+
+
+9th
+Precision   1.0
+Recall  0.14814814814814814
+fbeta   0.25806451612903225
+
+
+Some-college
+Precision   0.7927756653992395
+Recall  0.601297764960346
+fbeta   0.6838868388683887
+
+
+Assoc-acdm
+Precision   0.8629441624365483
+Recall  0.6415094339622641
+fbeta   0.7359307359307359
+
+
+Assoc-voc
+Precision   0.8543307086614174
+Recall  0.6011080332409973
+fbeta   0.7056910569105691
+
+
+7th-8th
+Precision   0.875
+Recall  0.175
+fbeta   0.29166666666666663
+
+
+Doctorate
+Precision   0.8668730650154799
+Recall  0.9150326797385621
+fbeta   0.8903020667726549
+
+
+Prof-school
+Precision   0.8871681415929203
+Recall  0.9479905437352246
+fbeta   0.9165714285714286
+
+
+5th-6th
+Precision   1.0
+Recall  0.3125
+fbeta   0.47619047619047616
+
+
+10th
+Precision   1.0
+Recall  0.22580645161290322
+fbeta   0.3684210526315789
+
+
+1st-4th
+Precision   1.0
+Recall  0.3333333333333333
+fbeta   0.5
+
+
+Preschool
+Precision   1.0
+Recall  1.0
+fbeta   1.0
+
+
+12th
+Precision   1.0
+Recall  0.30303030303030304
+fbeta   0.4651162790697675
+
+
+-------------
+Category: marital-status
+
+Never-married
+Precision   0.9891891891891892
+Recall  0.3727087576374745
+fbeta   0.5414201183431953
+
+
+Married-civ-spouse
+Precision   0.8158719683220591
+Recall  0.7389420203227735
+fbeta   0.7755038030267389
+
+
+Divorced
+Precision   0.9748427672955975
+Recall  0.3347732181425486
+fbeta   0.4983922829581993
+
+
+Married-spouse-absent
+Precision   0.9166666666666666
+Recall  0.3235294117647059
+fbeta   0.4782608695652174
+
+
+Separated
+Precision   1.0
+Recall  0.42424242424242425
+fbeta   0.5957446808510638
+
+
+Married-AF-spouse
+Precision   1.0
+Recall  0.3
+fbeta   0.4615384615384615
+
+
+Widowed
+Precision   1.0
+Recall  0.2823529411764706
+fbeta   0.44036697247706424
+
+
+-------------
+Category: occupation
+
+Adm-clerical
+Precision   0.7879581151832461
+Recall  0.5936883629191322
+fbeta   0.6771653543307087
+
+
+Exec-managerial
+Precision   0.8387096774193549
+Recall  0.8323170731707317
+fbeta   0.8355011476664117
+
+
+Handlers-cleaners
+Precision   0.9583333333333334
+Recall  0.26744186046511625
+fbeta   0.4181818181818182
+
+
+Prof-specialty
+Precision   0.8209583991574513
+Recall  0.8386229155459924
+fbeta   0.8296966471527408
+
+
+Other-service
+Precision   0.9642857142857143
+Recall  0.19708029197080293
+fbeta   0.3272727272727273
+
+
+Sales
+Precision   0.7929411764705883
+Recall  0.6856561546286877
+fbeta   0.7354064375340972
+
+
+Craft-repair
+Precision   0.8464491362763915
+Recall  0.4747039827771798
+fbeta   0.6082758620689656
+
+
+Transport-moving
+Precision   0.8709677419354839
+Recall  0.3375
+fbeta   0.48648648648648646
+
+
+Farming-fishing
+Precision   0.8958333333333334
+Recall  0.3739130434782609
+fbeta   0.5276073619631901
+
+
+Machine-op-inspct
+Precision   0.8736842105263158
+Recall  0.332
+fbeta   0.48115942028985503
+
+
+Tech-support
+Precision   0.8188405797101449
+Recall  0.7985865724381626
+fbeta   0.8085867620751341
+
+
+?
+Precision   0.8333333333333334
+Recall  0.4712041884816754
+fbeta   0.6020066889632107
+
+
+Protective-serv
+Precision   0.8271604938271605
+Recall  0.6350710900473934
+fbeta   0.7184986595174262
+
+
+Armed-Forces
+Precision   1.0
+Recall  1.0
+fbeta   1.0
+
+
+Priv-house-serv
+Precision   1.0
+Recall  1.0
+fbeta   1.0
+
+
+-------------
+Category: relationship
+
+Not-in-family
+Precision   0.9813084112149533
+Recall  0.3679906542056075
+fbeta   0.5352591333899746
+
+
+Husband
+Precision   0.8137636802077537
+Recall  0.7412977357215276
+fbeta   0.775842249535768
+
+
+Wife
+Precision   0.8308157099697885
+Recall  0.738255033557047
+fbeta   0.7818052594171996
+
+
+Own-child
+Precision   1.0
+Recall  0.29850746268656714
+fbeta   0.45977011494252873
+
+
+Unmarried
+Precision   0.984375
+Recall  0.2889908256880734
+fbeta   0.44680851063829785
+
+
+Other-relative
+Precision   1.0
+Recall  0.3783783783783784
+fbeta   0.5490196078431372
+
+
+-------------
+Category: race
+
+White
+Precision   0.8246325392802838
+Recall  0.6858226780947029
+fbeta   0.748849340288432
+
+
+Black
+Precision   0.8586956521739131
+Recall  0.6124031007751938
+fbeta   0.7149321266968326
+
+
+Asian-Pac-Islander
+Precision   0.819672131147541
+Recall  0.7246376811594203
+fbeta   0.7692307692307692
+
+
+Amer-Indian-Eskimo
+Precision   0.9473684210526315
+Recall  0.5
+fbeta   0.6545454545454545
+
+
+Other
+Precision   0.9285714285714286
+Recall  0.52
+fbeta   0.6666666666666666
+
+
+-------------
+Category: sex
+
+Male
+Precision   0.8215862921745275
+Recall  0.6981386970879616
+fbeta   0.7548486569828775
+
+
+Female
+Precision   0.8606658446362515
+Recall  0.5920271416454622
+fbeta   0.7015075376884422
+
+
+-------------
+Category: native-country
+
+United-States
+Precision   0.8256662705822441
+Recall  0.6782875470645656
+fbeta   0.744755780125555
+
+
+Cuba
+Precision   1.0
+Recall  0.76
+fbeta   0.8636363636363636
+
+
+Jamaica
+Precision   0.6666666666666666
+Recall  0.6
+fbeta   0.631578947368421
+
+
+India
+Precision   0.7391304347826086
+Recall  0.85
+fbeta   0.7906976744186046
+
+
+?
+Precision   0.8
+Recall  0.7397260273972602
+fbeta   0.7686832740213523
+
+
+Mexico
+Precision   1.0
+Recall  0.3939393939393939
+fbeta   0.5652173913043478
+
+
+South
+Precision   0.7142857142857143
+Recall  0.625
+fbeta   0.6666666666666666
+
+
+Puerto-Rico
+Precision   0.9
+Recall  0.75
+fbeta   0.8181818181818182
+
+
+Honduras
+Precision   1.0
+Recall  1.0
+fbeta   1.0
+
+
+England
+Precision   0.84
+Recall  0.7
+fbeta   0.7636363636363636
+
+
+Canada
+Precision   0.8205128205128205
+Recall  0.8205128205128205
+fbeta   0.8205128205128205
+
+
+Germany
+Precision   0.8461538461538461
+Recall  0.75
+fbeta   0.7951807228915662
+
+
+Iran
+Precision   0.7619047619047619
+Recall  0.8888888888888888
+fbeta   0.8205128205128205
+
+
+Philippines
+Precision   0.8461538461538461
+Recall  0.7213114754098361
+fbeta   0.7787610619469026
+
+
+Italy
+Precision   0.8823529411764706
+Recall  0.6
+fbeta   0.7142857142857143
+
+
+Poland
+Precision   1.0
+Recall  0.6666666666666666
+fbeta   0.8
+
+
+Columbia
+Precision   0.6666666666666666
+Recall  1.0
+fbeta   0.8
+
+
+Cambodia
+Precision   1.0
+Recall  0.14285714285714285
+fbeta   0.25
+
+
+Thailand
+Precision   1.0
+Recall  1.0
+fbeta   1.0
+
+
+Ecuador
+Precision   0.75
+Recall  0.75
+fbeta   0.75
+
+
+Laos
+Precision   1.0
+Recall  0.5
+fbeta   0.6666666666666666
+
+
+Taiwan
+Precision   0.9
+Recall  0.9
+fbeta   0.9
+
+
+Haiti
+Precision   0.6666666666666666
+Recall  0.5
+fbeta   0.5714285714285715
+
+
+Portugal
+Precision   1.0
+Recall  0.75
+fbeta   0.8571428571428571
+
+
+Dominican-Republic
+Precision   0.5
+Recall  0.5
+fbeta   0.5
+
+
+El-Salvador
+Precision   1.0
+Recall  0.8888888888888888
+fbeta   0.9411764705882353
+
+
+France
+Precision   0.8333333333333334
+Recall  0.8333333333333334
+fbeta   0.8333333333333334
+
+
+Guatemala
+Precision   1.0
+Recall  0.3333333333333333
+fbeta   0.5
+
+
+China
+Precision   0.8947368421052632
+Recall  0.85
+fbeta   0.8717948717948718
+
+
+Japan
+Precision   0.8571428571428571
+Recall  0.75
+fbeta   0.7999999999999999
+
+
+Yugoslavia
+Precision   0.8
+Recall  0.6666666666666666
+fbeta   0.7272727272727272
+
+
+Peru
+Precision   1.0
+Recall  0.5
+fbeta   0.6666666666666666
+
+
+Outlying-US(Guam-USVI-etc)
+Precision   1.0
+Recall  1.0
+fbeta   1.0
+
+
+Scotland
+Precision   1.0
+Recall  1.0
+fbeta   1.0
+
+
+Trinadad&Tobago
+Precision   1.0
+Recall  0.5
+fbeta   0.6666666666666666
+
+
+Greece
+Precision   0.8571428571428571
+Recall  0.75
+fbeta   0.7999999999999999
+
+
+Nicaragua
+Precision   1.0
+Recall  0.5
+fbeta   0.6666666666666666
+
+
+Vietnam
+Precision   1.0
+Recall  0.4
+fbeta   0.5714285714285715
+
+
+Hong
+Precision   0.8333333333333334
+Recall  0.8333333333333334
+fbeta   0.8333333333333334
+
+
+Ireland
+Precision   1.0
+Recall  0.6
+fbeta   0.7499999999999999
+
+
+Hungary
+Precision   0.6666666666666666
+Recall  0.6666666666666666
+fbeta   0.6666666666666666
+
+
+Holand-Netherlands
+Precision   1.0
+Recall  1.0
+fbeta   1.0
+
+
+-------------
