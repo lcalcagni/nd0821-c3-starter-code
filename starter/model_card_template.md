@@ -17,4 +17,5 @@ The performance of the model was evaluated using the following metrics:
 - precision
 - recall
 - fbeta
+
 The performance of the model on slices of the data is located in file `./starter/starter/slice_performance.txt`.
