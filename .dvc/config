@@ -1,5 +1,3 @@
-['remote "myremote"']
+['remote "s3remote"']
     url = s3://udacityproject3
     region = us-east-1
-[core]
-remote = myremote
