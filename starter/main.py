@@ -47,9 +47,9 @@ if "DYNO" in os.environ and os.path.isdir(".dvc"):
 
 app = FastAPI()
 
-model = pd.read_pickle(os.path.join(os.getcwd(), "starter/model/model.pkl"))
-Encoder = pd.read_pickle(os.path.join(os.getcwd(), "starter/model/encoder.pkl"))
-lb_ = pd.read_pickle(os.path.join(os.getcwd(),"starter/model/lb.pkl"))
+model = pd.read_pickle("./model/model.pkl")
+Encoder = pd.read_pickle( "./model/encoder.pkl")
+lb_ = pd.read_pickle("./model/lb.pkl")
 
 
 class Input(BaseModel):
