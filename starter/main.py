@@ -6,8 +6,8 @@ from fastapi import FastAPI, HTTPException
 
 from pydantic import BaseModel, Field
 
-from starter.ml.data import process_data
-from starter.ml.model import inference
+from starter.starter.ml.data import process_data
+from starter.starter.ml.model import inference
 
 import os
 
