@@ -36,7 +36,6 @@ jobs:
       uses: iterative/setup-dvc@v1
     - name: Pull data from S3 with DVC
       run: |
-        dvc remote add -d myremote s3://udacityproject3
         dvc pull
     - name: Install dependencies
       run: |
