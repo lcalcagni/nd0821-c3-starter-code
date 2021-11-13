@@ -1,4 +1,4 @@
-import os
+import os, sys
 import pandas as pd
 import numpy as np
 
@@ -6,8 +6,11 @@ from fastapi import FastAPI, HTTPException
 
 from pydantic import BaseModel, Field
 
-from starter.starter.ml.data import process_data
-from starter.starter.ml.model import inference
+sys.path.insert(1, './starter/ml')
+sys.path.append('./starter/starter/ml')
+
+from data import process_data
+from model import inference
 
 import os
 
