@@ -31,13 +31,7 @@ if "DYNO" in os.environ and os.path.isdir(".dvc"):
         os.system("rm -r .dvc .apt/usr/lib/dvc")
 
 
-def root():
-    print(os.getcwd())
-    return os.getcwd()
 
-
-root = root()
-print(root)
 
 # if "DYNO" in os.environ and os.path.isdir(".dvc"):
 #     os.system("dvc config core.no_scm true")
@@ -53,9 +47,9 @@ print(root)
 
 app = FastAPI()
 
-model = pd.read_pickle("starter/model/model.pkl")
-Encoder = pd.read_pickle("starter/model/encoder.pkl")
-lb_ = pd.read_pickle("starter/model/lb.pkl")
+model = pd.read_pickle(os.path.join(os.getcwd(), "starter/model/model.pkl"))
+encoder = pd.read_pickle(os.path.join(os.getcwd(), "starter/model/encoder.pkl"))
+lb_ = pd.read_pickle(os.path.join(os.getcwd(),"starter/model/lb.pkl"))
 
 
 class Input(BaseModel):
@@ -115,7 +109,7 @@ def get_predicition(payload: Input):
         "sex",
         "native_country"]
 
-    X, y, encoder, lb = process_data(df, categorical_features=cat_features, training=False,encoder=Encoder,lb=lb_)
+    X, y, encoder, lb = process_data(df, categorical_features=cat_features, training=False,encoder=encoder,lb=lb_)
 
     prediction = inference(model, X)
 
