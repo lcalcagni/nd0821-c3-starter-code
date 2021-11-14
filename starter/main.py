@@ -17,6 +17,7 @@ from model import inference
 
 if "DYNO" in os.environ and os.path.isdir(".dvc"):
     os.system("dvc config core.no_scm true")
+    os.system("dvc config cache.type copy")
     dvc_output = subprocess.run(
         ["dvc", "pull", "-r", "s3remote"], capture_output=True, text=True)
     if dvc_output.returncode != 0:
@@ -92,9 +93,9 @@ def get_predicition(payload: Input):
         Encoder = pd.read_pickle(os.path.join(os.getcwd(), "starter/model/encoder.pkl"))
         lb_ = pd.read_pickle(os.path.join(os.getcwd(),"starter/model/lb.pkl"))
     except:
-        model = pd.read_pickle("./model/model.pkl")
-        Encoder = pd.read_pickle("./model/encoder.pkl")
-        lb_ = pd.read_pickle("./model/lb.pkl")
+        model = pd.read_pickle(os.path.join(path, "/model/model.pkl"))
+        Encoder = pd.read_pickle(os.path.join(path, "/model/encoder.pkl"))
+        lb_ = pd.read_pickle(os.path.join(path, "/model/lb.pkl"))
 
     X, y, encoder, lb = process_data(df, categorical_features=cat_features, training=False,encoder=Encoder,lb=lb_)
 
