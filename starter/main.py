@@ -14,7 +14,6 @@ sys.path.append('./starter/starter/ml')
 from data import process_data
 from model import inference
 
-
 if "DYNO" in os.environ and os.path.isdir(".dvc"):
     os.system("dvc config core.no_scm true")
     os.system("dvc config cache.type copy")
@@ -27,8 +26,6 @@ if "DYNO" in os.environ and os.path.isdir(".dvc"):
 
 app = FastAPI()
 path = Path(__file__).parent.absolute()
-print(path, "path")
-print(os.getcwd(), 'gcd')
 
 
 class Input(BaseModel):
