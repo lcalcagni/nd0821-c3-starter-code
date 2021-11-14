@@ -27,6 +27,7 @@ if "DYNO" in os.environ and os.path.isdir(".dvc"):
 app = FastAPI()
 path = Path(__file__).parent.absolute()
 print(path, "path")
+print(os.getcwd(), 'gcd')
 
 
 class Input(BaseModel):
@@ -91,9 +92,9 @@ def get_predicition(payload: Input):
         Encoder = pd.read_pickle(os.path.join(os.getcwd(), "starter/model/encoder.pkl"))
         lb_ = pd.read_pickle(os.path.join(os.getcwd(),"starter/model/lb.pkl"))
     except:
-        model = pd.read_pickle("starter/model/model.pkl")
-        Encoder = pd.read_pickle("starter/model/encoder.pkl")
-        lb_ = pd.read_pickle("starter/model/lb.pkl")
+        model = pd.read_pickle("./model/model.pkl")
+        Encoder = pd.read_pickle("./model/encoder.pkl")
+        lb_ = pd.read_pickle("./model/lb.pkl")
 
     X, y, encoder, lb = process_data(df, categorical_features=cat_features, training=False,encoder=Encoder,lb=lb_)
 
